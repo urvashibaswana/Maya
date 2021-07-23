@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"> </script>
+</head>
+
+<body>
+    <center>
+        <h2> Guest List </h2>
+        <br>
+        <span>
+            <input type="text" id="guest_names" placeholder="Enter name">
+            <button type="submit" id="button_submit" onclick="submit()"> 
+                Submit 
+            </button>
+            <div id="people_names_show"> </div>
+        </span>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <h2> Guest List </h2>
+        <br>
+        <button type="button" id="button_show" onclick="show()"> Show </button>
+        <br>
+        <div id="names_show_column"> </div>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <div>
+            <button type="button" onclick="sorting()" id="button_sort">
+                Sort Names
+            </button>
+            <div id="sorted_names"> </div>
+        </div>
+        <br>
+        <hr>
+        <hr>
+        <span>
+            <input type="search" id="search_textinput" placeholder="Search name">
+            <button type="button" id="button_search" onclick="searching()"> Search </button>
+            <p id="number_of_names_found"></p>
+        </span>
+    </center>
+</body></html>
